@@ -37,7 +37,6 @@ int main(void){
 		}
 
 		l_p_fileMd5 = GetFileMd5(l_p_filePath);
-		//l_p_fileMd5 = "11111111111111111111111111111111";
 
 		if (l_p_fileMd5) {
 			printf("Md5 Code:%s\n", l_p_fileMd5);
